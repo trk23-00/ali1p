@@ -1,0 +1,73 @@
+.contenedor_general{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+.contenedor_superior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EB5757 ;
+    padding: 10px;
+    gap: 50px;
+    border-radius: 5px 5px 0px 0px;
+}
+.contenedor_aux{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.icon_num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50% 50% 50% 50%;
+
+}
+.text_1{
+    color: white ;
+}
+.contenedor_aux2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon_cubo{
+    background-image: url(Vector.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.contenedor_central{
+    display: flex;
+    padding: 0px;
+    padding-left: 15px;
+    justify-content: space-between;
+}
+.text_2{
+    color: black;
+}
+.contenedor_inferior{
+    display: flex;
+    flex-direction: column;
+
+}
+.c_i_encabezado{
+}
+.c_i_contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.text_3{
+    color: #888888;
+}
